@@ -1,0 +1,33 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int i,j=2,k=2;
+for(i=1;i<=10;i++)
+{
+if(i%2==0)
+{
+cout<<endl<<i;
+}
+else
+{
+continue;
+}
+}
+cout<<endl<<"**********************************************";
+while(j<=10)
+{
+cout<<endl<<j;
+j=j+2;
+}
+cout<<endl<<"**********************************************";
+do
+{
+cout<<endl<<k;
+k=k+2;
+}
+while(k<=10);
+cout<<endl<<"**********************************************";
+getch();
+}
